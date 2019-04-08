@@ -1,6 +1,6 @@
-# lxc 파일 분석( lxc_create.c )
+# lxc 파일 분석
 
-### 
+### lxc_create.c
 
 struct lxc_container  : 컨테이너의 기본 정보들(설정파일, 락, 함수들 등)
 
