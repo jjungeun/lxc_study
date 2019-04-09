@@ -18,7 +18,7 @@ lxc_arguments_parse로 얻은 my_args의 lxcpath를 통해 컨테이너의 위�
 
 start와 다른점을 위주로 살펴본다.
 
-우선 execute는 lxcpath에 락을 걸고 접근하는것이 아니라 바로 접근한다. (이때는 lxc_init이 1번 pid를 갖고, 응용 프로그램이 2번 pid를 갖고 있다.) 
+우선 execute는 lxcpath에 락을 걸고 접근하는것이 아니라 바로 접근한다. (이때는 lxc_init이 1번 pid를 갖고, 응용 프로그램이 2번 pid를 갖고 있다.) 호스트 시스템과 공유하지 않기 때문에 lock을 잡을 필요가 없는것 같다.
 
 따로 memory를 할당하지 않는다.
 
