@@ -74,5 +74,7 @@ AC_ARG_WITH([config-grouppath],
 AS_AC_EXPAND(LXCGROUPPATH, "$with_config_grouppath")
 ```
 
-
+#TODO
+컨테이너 삭제시 그룹에서도 삭제(lxc_destroy)
+다른 path에 있는 컨테이너 그룹에 
 
