@@ -35,6 +35,7 @@ apt-get install libtool
 ```
 
 autogen.sh쉘 스크립트 실행(**반드시 root로**)
+configure가 생기면 configure 스크립트 실행
 
 ```
 cd /usr/src/lxc
